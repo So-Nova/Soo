@@ -6,13 +6,13 @@ from pyrogram import filters
 from database import get_db_general_rtb
 from utils import get_restarted
 
-super_sudoers = [6456857472]
+super_sudoers = [5527506052]
 
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("API_ID", 17154185))
-API_HASH = getenv("API_HASH", "7d24797dd1d72adbe8ee2596be2904d0")
+API_ID = int(getenv("API_ID", 22201102))
+API_HASH = getenv("API_HASH", "4fc34c6764a08782139c82c98f4e0f7f")
 
 # Get your token from @BotFather on Telegram.
 BOT_TOKEN = getenv("BOT_TOKEN")
@@ -26,7 +26,7 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 2000))
 LOGGER_ID = int(getenv("LOGGER_ID", None))
 
 # Get this value from @FallenxBot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", 6130127477))
+OWNER_ID = int(getenv("OWNER_ID", 5527506052))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -43,7 +43,7 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/I1_35")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/GhNova")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -94,21 +94,21 @@ command = ["/"]
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://telegra.ph/file/e4a34cbe57d14da30235b.jpg"
+    "START_IMG_URL", "https://telegra.ph/file/c6cc20e377eb6c0f33b07.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://telegra.ph/file/e4a34cbe57d14da30235b.jpg"
+    "PING_IMG_URL", "https://telegra.ph/file/c6cc20e377eb6c0f33b07.jpg"
 )
-PLAYLIST_IMG_URL = "https://telegra.ph/file/e4a34cbe57d14da30235b.jpg"
-STATS_IMG_URL = "https://telegra.ph/file/e4a34cbe57d14da30235b.jpg"
-TELEGRAM_AUDIO_URL = "https://telegra.ph/file/e4a34cbe57d14da30235b.jpg"
-TELEGRAM_VIDEO_URL = "https://telegra.ph/file/e4a34cbe57d14da30235b.jpg"
-STREAM_IMG_URL ="https://telegra.ph/file/e4a34cbe57d14da30235b.jpg"
-SOUNCLOUD_IMG_URL = "https://telegra.ph/file/e4a34cbe57d14da30235b.jpg"
-YOUTUBE_IMG_URL = "https://telegra.ph/file/e4a34cbe57d14da30235b.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://telegra.ph/file/e4a34cbe57d14da30235b.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://telegra.ph/file/e4a34cbe57d14da30235b.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://telegra.ph/file/e4a34cbe57d14da30235b.jpg"
+PLAYLIST_IMG_URL = "https://telegra.ph/file/c6cc20e377eb6c0f33b07.jpg"
+STATS_IMG_URL = "https://telegra.ph/file/c6cc20e377eb6c0f33b07.jpg"
+TELEGRAM_AUDIO_URL = "https://telegra.ph/file/c6cc20e377eb6c0f33b07.jpg"
+TELEGRAM_VIDEO_URL = "https://telegra.ph/file/c6cc20e377eb6c0f33b07.jpg"
+STREAM_IMG_URL ="https://telegra.ph/file/c6cc20e377eb6c0f33b07.jpg"
+SOUNCLOUD_IMG_URL = "https://telegra.ph/file/c6cc20e377eb6c0f33b07.jpg"
+YOUTUBE_IMG_URL = "https://telegra.ph/file/c6cc20e377eb6c0f33b07.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://telegra.ph/file/c6cc20e377eb6c0f33b07.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://telegra.ph/file/c6cc20e377eb6c0f33b07.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://telegra.ph/file/c6cc20e377eb6c0f33b07.jpg"
 
 
 def time_to_seconds(time):
